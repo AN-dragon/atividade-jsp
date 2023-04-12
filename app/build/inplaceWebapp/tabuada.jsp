@@ -30,5 +30,11 @@
         </c:forEach>
     </ul>
 
+    <h1>Tabuada2</h1>
+    <ul>
+<% for(int numi = 1; numi <= 10; numi++) { %>
+    <% out.print( "<li>" + (numi * 5) + "</li>"); %>
+    <% } %>
+    </ul>
 </body>
 </html>
